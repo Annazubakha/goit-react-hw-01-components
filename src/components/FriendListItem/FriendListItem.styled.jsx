@@ -31,6 +31,7 @@ export const Status = styled.span`
         return 'green';
       case false:
         return 'red';
+      default:
     }
   }};
 `;
